@@ -15,8 +15,6 @@ def train_model(X, y, seed=seed):
         max_depth=5,
         subsample=0.8,
         min_samples_leaf=3,
-        min_samples_split=6,
-        max_features='sqrt',
         random_state=seed
     )
     model.fit(X, y)

@@ -19,7 +19,5 @@ If this code or data fell into the wrong hands, the following security concerns 
 
 - **CODEOWNERS file**: Configured with @batmandoescale to ensure that all code changes require approval from an authorized owner, preventing unauthorized modifications to the main branch.
 
-- **Private repository**: Given the sensitive nature of the code, this repository should be private to limit access to authorized users only.
-
 - **Reasons Why Not Completely Necessary**: Overall the code being used is not sensitive and is not intended to be used for any malicious purposes. Since this is a course repository, the information being used may not be sensitive enough to warrant a private repository.
 
