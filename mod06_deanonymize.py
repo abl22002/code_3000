@@ -21,7 +21,7 @@ def link_records(anon_df, aux_df):
     merged = pd.merge(
         anon_df,
         aux_df,
-        on=['age', 'gender', 'zipcode'],
+        on=['age', 'gender', 'zip3'],
         how='inner',
         suffixes=('_anon', '_aux')
     )
@@ -36,7 +36,4 @@ def deanonymization_rate(matches_df, anon_df):
     Compute the fraction of anonymized records
     that were uniquely re-identified.
     """
-    raise NotImplementedError
-
-
-#  write functions in "deanonymize" script to (1) link the records in the two datasets and (2) calculate the rate at which you are successful doing so. 
+    return len(matches_df) / len(anon_df)
