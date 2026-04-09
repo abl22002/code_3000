@@ -1,2 +1,5 @@
 # code_3000
 Collection of Assignments for CSE 3000: Contemporary Issues in Computer Science and Engineering
+
+
+My view on ethics in technology regarding artificial intelligence is shaped by the ideas in chapter 5 of Ethical Machines by Reid Blackman. Blackman focuses on several key points including how bias in AI is not just a technical flaw but an ethical responsibility. When designing ML models, it is crucial to understand that systems can unintentionally reinforce harmful patterns when they are trained on biased data, unexamined assumptions, or deployed carelessly. I realize that it  is crucial to recognize that AI will never be completely free of bias, which is part of ethical practice. While bias will always be guaranteed, responsible Ai development requires diverse data and commitment to monitoring after deployment to ensure that they remain safe. Technology should be used to reduce harm, and that ethical reflection must be built during all stages of development, not just an afterthought after deployment. I believe that AI ethics must be properly designed and monitored the same as regular code. 
